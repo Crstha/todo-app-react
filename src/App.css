@@ -1,0 +1,151 @@
+h1 {
+  text-align: center;
+}
+
+body{
+  background-color:#1f1e1e;
+  color: #ffffff;
+  overflow: hidden;
+}
+.todo-wrapper{
+  background:#353434;
+  padding: 2rem;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+  max-height: 70vh;
+  overflow-y: auto;
+  box-shadow: 0px 5px 7px #b8aaaa;
+}
+
+.todo-input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+  padding-bottom:2rem ;
+  margin-bottom: 2rem;
+}
+
+.todo-input-item{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 1.5rem;
+}
+
+.todo-input-item label{
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+
+.todo-input-item input{
+  padding: 8px;
+  border: none;
+  width: 250px;
+
+}
+.todo-input-item input:focus{
+  outline: 2px solid rgb(0, 230, 122);
+
+}
+.primaryButton{
+  background: rgb(0, 230, 122);
+  color: #ffffff;
+  border: none;
+  border-radius: 0px;
+  margin-top:25px ;
+  padding: 9px;
+  cursor: pointer;
+}
+.primaryButton:hover{
+  background-color:rgb(4, 196, 106);
+}
+
+.secondaryButton{
+  background: rgb(71, 71, 71);
+  color: #ffffff;
+  border: none;
+  border-radius: 0px;
+  margin-top:25px ;
+  padding: 9px;
+  cursor: pointer;
+  width: fit-content;
+}
+.active{
+  background-color:rgb(4, 196, 106) ;
+}
+.inActive{
+  background-color:rgb(71, 71, 71);
+}
+.button{
+  align-items: center;
+  justify-content: center;
+}
+
+.todo-list-section{
+  display: flex;
+  flex-direction: column;
+}
+.button-area{
+  margin-bottom: 2rem;
+}
+
+.todo-list-item{
+  background-color:rgb(83, 80, 80) ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 3px 5px rgb(99, 97, 97);
+}
+
+.todo-list-item h3{
+  font-size: 2rem;
+  color: rgb(4, 196, 106) ;
+  margin: 0;
+  font-weight: bold;
+
+}
+.todo-input-item p{
+  font-size: 0.8rem;
+  color: rgb(83, 80, 80);
+  margin-top: 8px;
+}
+.icon{
+  font-size: 35px;
+  cursor: pointer;
+}
+.icon:hover{
+  color: red;
+}
+.check-icon{
+  font-size: 35px;
+  cursor: pointer;
+  color:rgb(4, 196, 106) ;
+}
+.check-icon:hover{
+  
+  color:rgb(4, 170, 92) ;
+}
+
+.edit_wrapper{
+  background-color: #414040;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit_wrapper input, .edit_wrapper textarea{
+  padding: 8px;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+
+}
